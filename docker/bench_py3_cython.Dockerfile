@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.15.2
 LABEL org.opencontainers.image.authors="Falcon Framework Maintainers"
 
 # We don't currently benchmark JSON deserialization, but in the future we might
